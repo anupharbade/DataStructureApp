@@ -93,9 +93,6 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <connections>
-                                    <segue destination="gRG-81-zvc" kind="show" id="P86-YZ-JUH"/>
-                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>

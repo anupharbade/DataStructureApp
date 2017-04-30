@@ -84,8 +84,8 @@
 				3A1D8FF81EB6869F003B49F7 /* View_Controllers */,
 				3A1D8FFF1EB69945003B49F7 /* DataProvider */,
 				3A8D2B811EB35B7F00B4A25B /* Data_Structures */,
-				3A8D2B831EB35BAE00B4A25B /* AppDelegate */,
 				3A8D2B821EB35B9A00B4A25B /* AppResources */,
+				3A8D2B831EB35BAE00B4A25B /* AppDelegate */,
 			);
 			name = DataStructures;
 			path = Stack;
