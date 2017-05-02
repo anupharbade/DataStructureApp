@@ -27,7 +27,7 @@ class StackArray<Item> {
        return (top == -1) ? true : false
     }
     
-    func push(item: Item?) -> Bool {
+    @discardableResult func push(item: Item?) -> Bool {
         
         guard stackArray.count < maxCount else {
             print("Stack is full, can not add more items")
@@ -46,7 +46,7 @@ class StackArray<Item> {
         
     }
     
-    func pop() -> (Int, Item?) {
+    @discardableResult func pop() -> (Int, Item?) {
         guard top >= 0 else {
             print("Stack is still empty, can not remove an item")
             return (-1, nil)

@@ -8,12 +8,11 @@
 
 import UIKit
 
-class DSOperationsViewController: UIViewController {
+class DSApplicationsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {

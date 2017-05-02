@@ -68,10 +68,10 @@
             </objects>
             <point key="canvasLocation" x="642" y="342"/>
         </scene>
-        <!--Operations Table View Controller-->
+        <!--Applications Table View Controller-->
         <scene sceneID="i4K-Ws-E1W">
             <objects>
-                <tableViewController id="DRs-q3-VwP" customClass="DSOperationsTableViewController" customModule="DataStructures" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="DRs-q3-VwP" customClass="DSApplicationsTableViewController" customModule="DataStructures" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="8NC-le-wC2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -105,10 +105,10 @@
             </objects>
             <point key="canvasLocation" x="1433" y="341"/>
         </scene>
-        <!--Operations Table View Controller-->
+        <!--Applications View Controller-->
         <scene sceneID="PCn-p8-5lf">
             <objects>
-                <viewController id="gRG-81-zvc" customClass="DSOperationsTableViewController" customModule="DataStructures" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="gRG-81-zvc" customClass="DSApplicationsViewController" customModule="DataStructures" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="BQ2-1e-Uva"/>
                         <viewControllerLayoutGuide type="bottom" id="mKk-0T-hpX"/>
@@ -118,7 +118,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Input" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gYT-6a-Giz">
-                                <rect key="frame" x="10" y="84" width="355" height="50"/>
+                                <rect key="frame" x="10" y="40" width="355" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="2Qg-RP-e7D"/>
                                 </constraints>
@@ -127,7 +127,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Output" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QdO-wZ-X7j">
-                                <rect key="frame" x="10" y="154" width="355" height="300"/>
+                                <rect key="frame" x="10" y="110" width="355" height="300"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="300" id="m1K-dv-Ybu"/>
                                 </constraints>

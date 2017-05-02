@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DSOperationsTableViewController: UITableViewController {
+class DSApplicationsTableViewController: UITableViewController {
     
     var operations: [String] = []
     var dataStructureTitle: String = ""
@@ -44,6 +44,9 @@ class DSOperationsTableViewController: UITableViewController {
         return cell
     }
     
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+//        let controller = DSStackApplicationsViewController()
+    }
     
     // MARK: - Navigation
     

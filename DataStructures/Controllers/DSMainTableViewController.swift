@@ -31,7 +31,7 @@ class DSMainTableViewController: UITableViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
-        if let operationsVC = segue.destination as? DSOperationsTableViewController {
+        if let operationsVC = segue.destination as? DSApplicationsTableViewController {
             operationsVC.operations = DSDataProvider.supportedOperations("Stack")
             operationsVC.dataStructureTitle = "Stack"
         }
