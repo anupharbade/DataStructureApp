@@ -10,9 +10,16 @@ import UIKit
 
 class DSApplicationsViewController: UIViewController {
 
+    @IBOutlet weak var textField: UITextField!
+    @IBOutlet weak var actionButton: UIButton!
+    @IBOutlet weak var outputLabel: UILabel!
+    
+    var operation: String = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.actionButton.layer.cornerRadius = 0.5
+        self.outputLabel.text = ""
     }
 
     override func didReceiveMemoryWarning() {

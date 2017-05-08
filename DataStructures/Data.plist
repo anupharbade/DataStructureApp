@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>Stack</string>
+		<key>id</key>
+		<integer>0</integer>
+		<key>operations</key>
+		<array>
+			<dict>
+				<key>operationId</key>
+				<string>0</string>
+				<key>operationTitle</key>
+				<string>Reverse a String</string>
+			</dict>
+			<dict>
+				<key>operationId</key>
+				<string>1</string>
+				<key>operationTitle</key>
+				<string>Prefix to Postfix</string>
+			</dict>
+			<dict>
+				<key>operationId</key>
+				<string>2</string>
+				<key>operationTitle</key>
+				<string>Postfix to Prefix</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Queue</string>
+		<key>id</key>
+		<integer>1</integer>
+		<key>operations</key>
+		<array>
+			<dict>
+				<key>operationId</key>
+				<string>0</string>
+				<key>operationTitle</key>
+				<string>Enqueue</string>
+			</dict>
+			<dict>
+				<key>operationId</key>
+				<string>1</string>
+				<key>operationTitle</key>
+				<string>Dequeue</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Linked List</string>
+		<key>id</key>
+		<integer>2</integer>
+		<key>operations</key>
+		<array>
+			<dict>
+				<key>operationId</key>
+				<string>0</string>
+				<key>operationTitle</key>
+				<string>Stack</string>
+			</dict>
+			<dict>
+				<key>operationId</key>
+				<string>1</string>
+				<key>operationTitle</key>
+				<string>Queue</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

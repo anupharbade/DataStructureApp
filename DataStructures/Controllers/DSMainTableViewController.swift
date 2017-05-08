@@ -9,8 +9,14 @@
 import UIKit
 
 class DSMainTableViewController: UITableViewController {
-    lazy var dataStructures = DSDataProvider.supportedDataStructures()
 
+    lazy var dataStructures = DSDataProvider.sharedInstance.supportedDataStructures()
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+    }
+    
     // MARK: - Table view data source
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
@@ -21,9 +27,8 @@ class DSMainTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "DSMainTableViewCell", for: indexPath)
         
-        let title = dataStructures[indexPath.row]
-        cell.textLabel?.text = title;
-
+        let dataStructure = dataStructures[indexPath.row] as DataStructure
+        cell.textLabel?.text = dataStructure.title;
         return cell
     }
     
@@ -31,10 +36,10 @@ class DSMainTableViewController: UITableViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
-        if let operationsVC = segue.destination as? DSApplicationsTableViewController {
-            operationsVC.operations = DSDataProvider.supportedOperations("Stack")
-            operationsVC.dataStructureTitle = "Stack"
-        }
+//        if let operationsVC = segue.destination as? DSApplicationsTableViewController {
+//            operationsVC.operations = DSDataProvider.sharedInstance.supportedOperations(for: <#T##DataStructure.DataStructureType#>)
+//            operationsVC.dataStructureTitle = "Stack"
+//        }
     }
  
 

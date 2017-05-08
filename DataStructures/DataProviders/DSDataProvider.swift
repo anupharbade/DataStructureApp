@@ -9,19 +9,45 @@
 import UIKit
 
 class DSDataProvider: NSObject {
-
-    static func supportedDataStructures() -> [String] {
-       return ["Stack", "Queue", "Linked List", "Tree", "Graph"]
-    }
+    var dataStructures : [DataStructure] = []
     
-    static func supportedOperations(_ forDataStructure:String) -> [String] {
-        switch forDataStructure {
-        case "Stack":
-            return ["Reverse a String", "Prefix to Postfix", "Prefix to Infix", "Postfix to Prefix", "Postfix to Infix"]
-        default:
-            return []
+    //MARK: Singleton method
+    static let sharedInstance : DSDataProvider = {
+        let instance = DSDataProvider()
+        return instance
+    }()
+    
+    //MARK: Overridden initializer
+    fileprivate override init() {
+        //MARK: Read inputs from the plist
+        var dataStructuresDictO : [[String:AnyObject]]? = nil
+        
+        if let filePath = Bundle.main.path(forResource: "Data", ofType: "plist") {
+            dataStructuresDictO = NSArray(contentsOfFile: filePath) as? [[String:AnyObject]]
         }
         
+        if let dataStructuresDict = dataStructuresDictO {
+            for dataStructureDict in dataStructuresDict {
+                let dataStructure = DataStructure(withDictionary: dataStructureDict)
+                self.dataStructures.append(dataStructure)
+            }
+        }
+    }
+    
+    //MARK: Interfaces
+    func supportedDataStructures() -> [DataStructure] {
+        return dataStructures
+    }
+    
+    func supportedOperations(for dataStructureType:DataStructure.DataStructureType) -> [DataStructure.DataStructureOperation]? {
+        
+        for dataStructure in dataStructures {
+            if dataStructure.type == dataStructureType {
+                return dataStructure.operations
+            }
+        }
+        
+        return nil
     }
     
 }

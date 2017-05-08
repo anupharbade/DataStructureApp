@@ -9,13 +9,21 @@
 import UIKit
 
 class DSStackApplicationsViewController: DSApplicationsViewController {
-    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         print(reverse(string: "Hello, Playground"))
         // Do any additional setup after loading the view.
     }
+    
+//    func perform(operation o:String) {
+//        switch o {
+//        case "reverse":
+//            reverse(string: <#T##String#>)
+//        default:
+//            <#code#>
+//        }
+//    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
