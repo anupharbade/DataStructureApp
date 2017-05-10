@@ -7,38 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3A402D4E1EBAA8EF0070AAB2 /* Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A402D4D1EBAA8EF0070AAB2 /* Data.plist */; };
-		3A44225A1EB699E70027642F /* DSMainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4422571EB699E70027642F /* DSMainTableViewController.swift */; };
-		3A44225E1EB699F90027642F /* DSDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44225D1EB699F90027642F /* DSDataProvider.swift */; };
 		3A4422601EB69A080027642F /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44225F1EB69A080027642F /* Stack.swift */; };
 		3A4422631EB69A1F0027642F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4422621EB69A1F0027642F /* AppDelegate.swift */; };
 		3A4422661EB69A380027642F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A4422641EB69A380027642F /* Assets.xcassets */; };
 		3A4422671EB69A380027642F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A4422651EB69A380027642F /* Info.plist */; };
 		3A44226C1EB69A430027642F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A4422681EB69A430027642F /* LaunchScreen.storyboard */; };
 		3A44226D1EB69A430027642F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A44226A1EB69A430027642F /* Main.storyboard */; };
-		3A44226F1EB6A7460027642F /* DSStackApplicationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44226E1EB6A7460027642F /* DSStackApplicationsViewController.swift */; };
-		3A4422721EB6A7DF0027642F /* DSApplicationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4422701EB6A7DF0027642F /* DSApplicationsTableViewController.swift */; };
-		3A4422731EB6A7DF0027642F /* DSApplicationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4422711EB6A7DF0027642F /* DSApplicationsViewController.swift */; };
 		3A4422761EB6AC540027642F /* String+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4422751EB6AC540027642F /* String+Utilities.swift */; };
-		3AAA11951EBE075E005F8163 /* DataStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAA11941EBE075E005F8163 /* DataStructure.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3A402D4D1EBAA8EF0070AAB2 /* Data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Data.plist; path = DataStructures/Data.plist; sourceTree = SOURCE_ROOT; };
-		3A4422571EB699E70027642F /* DSMainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DSMainTableViewController.swift; path = DataStructures/Controllers/DSMainTableViewController.swift; sourceTree = SOURCE_ROOT; };
-		3A44225D1EB699F90027642F /* DSDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DSDataProvider.swift; path = DataStructures/DataProviders/DSDataProvider.swift; sourceTree = SOURCE_ROOT; };
 		3A44225F1EB69A080027642F /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Stack.swift; path = DataStructures/Data_Structures/Stack.swift; sourceTree = SOURCE_ROOT; };
 		3A4422621EB69A1F0027642F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = DataStructures/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
 		3A4422641EB69A380027642F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = DataStructures/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		3A4422651EB69A380027642F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = DataStructures/Info.plist; sourceTree = SOURCE_ROOT; };
 		3A4422691EB69A430027642F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DataStructures/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
 		3A44226B1EB69A430027642F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DataStructures/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
-		3A44226E1EB6A7460027642F /* DSStackApplicationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DSStackApplicationsViewController.swift; path = DataStructures/Controllers/DSStackApplicationsViewController.swift; sourceTree = SOURCE_ROOT; };
-		3A4422701EB6A7DF0027642F /* DSApplicationsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DSApplicationsTableViewController.swift; path = DataStructures/Controllers/DSApplicationsTableViewController.swift; sourceTree = SOURCE_ROOT; };
-		3A4422711EB6A7DF0027642F /* DSApplicationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DSApplicationsViewController.swift; path = DataStructures/Controllers/DSApplicationsViewController.swift; sourceTree = SOURCE_ROOT; };
 		3A4422751EB6AC540027642F /* String+Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+Utilities.swift"; path = "DataStructures/Extensions/String+Utilities.swift"; sourceTree = SOURCE_ROOT; };
 		3A8D2B6A1EB35B2F00B4A25B /* DataStructures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataStructures.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3AAA11941EBE075E005F8163 /* DataStructure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataStructure.swift; path = DataStructures/DataProviders/DataStructure.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,26 +38,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3A1D8FF81EB6869F003B49F7 /* View_Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				3A4422571EB699E70027642F /* DSMainTableViewController.swift */,
-				3A4422701EB6A7DF0027642F /* DSApplicationsTableViewController.swift */,
-				3A4422711EB6A7DF0027642F /* DSApplicationsViewController.swift */,
-				3A44226E1EB6A7460027642F /* DSStackApplicationsViewController.swift */,
-			);
-			name = View_Controllers;
-			sourceTree = "<group>";
-		};
-		3A1D8FFF1EB69945003B49F7 /* DataProvider */ = {
-			isa = PBXGroup;
-			children = (
-				3A44225D1EB699F90027642F /* DSDataProvider.swift */,
-				3AAA11941EBE075E005F8163 /* DataStructure.swift */,
-			);
-			name = DataProvider;
-			sourceTree = "<group>";
-		};
 		3A4422741EB6AB900027642F /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -100,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				3A4422741EB6AB900027642F /* Extensions */,
-				3A1D8FF81EB6869F003B49F7 /* View_Controllers */,
-				3A1D8FFF1EB69945003B49F7 /* DataProvider */,
 				3A8D2B811EB35B7F00B4A25B /* Data_Structures */,
 				3A8D2B821EB35B9A00B4A25B /* AppResources */,
 				3A8D2B831EB35BAE00B4A25B /* AppDelegate */,
@@ -125,7 +89,6 @@
 				3A4422681EB69A430027642F /* LaunchScreen.storyboard */,
 				3A4422641EB69A380027642F /* Assets.xcassets */,
 				3A4422651EB69A380027642F /* Info.plist */,
-				3A402D4D1EBAA8EF0070AAB2 /* Data.plist */,
 			);
 			name = AppResources;
 			sourceTree = "<group>";
@@ -198,7 +161,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A44226C1EB69A430027642F /* LaunchScreen.storyboard in Resources */,
-				3A402D4E1EBAA8EF0070AAB2 /* Data.plist in Resources */,
 				3A4422671EB69A380027642F /* Info.plist in Resources */,
 				3A4422661EB69A380027642F /* Assets.xcassets in Resources */,
 				3A44226D1EB69A430027642F /* Main.storyboard in Resources */,
@@ -213,13 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A4422631EB69A1F0027642F /* AppDelegate.swift in Sources */,
-				3A44225A1EB699E70027642F /* DSMainTableViewController.swift in Sources */,
-				3A44225E1EB699F90027642F /* DSDataProvider.swift in Sources */,
-				3AAA11951EBE075E005F8163 /* DataStructure.swift in Sources */,
 				3A4422601EB69A080027642F /* Stack.swift in Sources */,
-				3A44226F1EB6A7460027642F /* DSStackApplicationsViewController.swift in Sources */,
-				3A4422721EB6A7DF0027642F /* DSApplicationsTableViewController.swift in Sources */,
-				3A4422731EB6A7DF0027642F /* DSApplicationsViewController.swift in Sources */,
 				3A4422761EB6AC540027642F /* String+Utilities.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
